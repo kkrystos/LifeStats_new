@@ -11,63 +11,119 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
-        public static final int bialy=0x7f040002;
-        public static final int niebieski=0x7f040000;
-        public static final int szary=0x7f040001;
+        public static final int bialy=0x7f050003;
+        public static final int niebieski=0x7f050000;
+        public static final int szary=0x7f050001;
+        public static final int szary_jasny=0x7f050002;
+    }
+    public static final class dimen {
+        public static final int font_size_16=0x7f060000;
     }
     public static final class drawable {
         public static final int blok_plec=0x7f020000;
         public static final int button=0x7f020001;
         public static final int button_kolor=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int ikona_1=0x7f020004;
-        public static final int ikona_1_szara=0x7f020005;
-        public static final int ikona_2=0x7f020006;
-        public static final int ikona_2_szara=0x7f020007;
-        public static final int kolo_niebieskie=0x7f020008;
-        public static final int kolo_szare=0x7f020009;
-        public static final int logo=0x7f02000a;
-        public static final int tlo=0x7f02000b;
+        public static final int facebook=0x7f020003;
+        public static final int facebook_add=0x7f020004;
+        public static final int facebook_kolor=0x7f020005;
+        public static final int google_plus=0x7f020006;
+        public static final int google_plus_add=0x7f020007;
+        public static final int google_plus_kolor=0x7f020008;
+        public static final int ic_launcher=0x7f020009;
+        public static final int ikona_1=0x7f02000a;
+        public static final int ikona_1_szara=0x7f02000b;
+        public static final int ikona_2=0x7f02000c;
+        public static final int ikona_2_szara=0x7f02000d;
+        public static final int kolo_niebieskie=0x7f02000e;
+        public static final int kolo_szare=0x7f02000f;
+        public static final int logo=0x7f020010;
+        public static final int pinterest=0x7f020011;
+        public static final int pinterest_add=0x7f020012;
+        public static final int pinterest_kolor=0x7f020013;
+        public static final int przykladowa_ikona=0x7f020014;
+        public static final int przykladowa_ikona_2=0x7f020015;
+        public static final int tlo=0x7f020016;
+        public static final int twitter=0x7f020017;
+        public static final int twitter_add=0x7f020018;
+        public static final int twitter_kolor=0x7f020019;
     }
     public static final class id {
-        public static final int button1=0x7f08000d;
-        public static final int button2=0x7f080010;
-        public static final int editText1=0x7f080001;
-        public static final int editText2=0x7f080002;
-        public static final int editText3=0x7f080005;
-        public static final int editText4=0x7f080006;
-        public static final int editText5=0x7f080007;
-        public static final int imageButton1=0x7f080003;
-        public static final int imageButton2=0x7f080004;
-        public static final int imageView1=0x7f080000;
-        public static final int imageView2=0x7f080009;
-        public static final int imageView3=0x7f08000a;
-        public static final int imageView4=0x7f08000b;
-        public static final int imageView5=0x7f08000c;
-        public static final int login_continueBtn=0x7f080008;
-        public static final int menu_settings=0x7f080012;
-        public static final int pager=0x7f08000e;
-        public static final int scrollView1=0x7f08000f;
-        public static final int textView1=0x7f080011;
+        public static final int button1=0x7f0a000f;
+        public static final int button2=0x7f0a0020;
+        public static final int choose_statsSelectBtn=0x7f0a0002;
+        public static final int choose_stats_item=0x7f0a0024;
+        public static final int editText1=0x7f0a0007;
+        public static final int editText2=0x7f0a0008;
+        public static final int editText3=0x7f0a000b;
+        public static final int editText4=0x7f0a000c;
+        public static final int editText5=0x7f0a000d;
+        public static final int finish_item=0x7f0a0025;
+        public static final int gridView1=0x7f0a0010;
+        public static final int grid_item_image=0x7f0a0011;
+        public static final int grid_item_label=0x7f0a0012;
+        public static final int imageView1=0x7f0a0000;
+        public static final int imageView2=0x7f0a0006;
+        public static final int imageView3=0x7f0a0003;
+        public static final int imageView4=0x7f0a0004;
+        public static final int imageView5=0x7f0a0005;
+        public static final int label=0x7f0a0013;
+        public static final int login_continueBtn=0x7f0a000e;
+        public static final int login_item=0x7f0a0023;
+        public static final int login_manBtn=0x7f0a0009;
+        public static final int login_womanBtn=0x7f0a000a;
+        public static final int menu_settings=0x7f0a0022;
+        public static final int pager=0x7f0a0014;
+        public static final int scrollView1=0x7f0a001f;
+        public static final int social_friendContinueBtn=0x7f0a0019;
+        public static final int social_friend_facebook_addBtn=0x7f0a0015;
+        public static final int social_friend_google_plus_addBtn=0x7f0a0017;
+        public static final int social_friend_pinterest_addBtn=0x7f0a0018;
+        public static final int social_friend_twitter_addBtn=0x7f0a0016;
+        public static final int synchBtnF=0x7f0a001a;
+        public static final int synchBtnG=0x7f0a001c;
+        public static final int synchBtnP=0x7f0a001d;
+        public static final int synchBtnT=0x7f0a001b;
+        public static final int synch_continueBtn=0x7f0a001e;
+        public static final int textView1=0x7f0a0001;
+        public static final int textView2=0x7f0a0021;
     }
     public static final class layout {
-        public static final int activity_login=0x7f030000;
-        public static final int activity_main=0x7f030001;
-        public static final int activity_main_fragment=0x7f030002;
-        public static final int frag1=0x7f030003;
-        public static final int frag2=0x7f030004;
-        public static final int frag3=0x7f030005;
+        public static final int activity_choose_stats=0x7f030000;
+        public static final int activity_login=0x7f030001;
+        public static final int activity_main=0x7f030002;
+        public static final int activity_main_app=0x7f030003;
+        public static final int activity_main_app_grid=0x7f030004;
+        public static final int activity_main_fragment=0x7f030005;
+        public static final int activity_social_friend=0x7f030006;
+        public static final int activity_splash=0x7f030007;
+        public static final int activity_synchronization=0x7f030008;
+        public static final int frag1=0x7f030009;
+        public static final int frag2=0x7f03000a;
+        public static final int frag3=0x7f03000b;
+        public static final int frag_emails=0x7f03000c;
+        public static final int frag_internet=0x7f03000d;
+        public static final int frag_klikniecia=0x7f03000e;
+        public static final int frag_kroki=0x7f03000f;
+        public static final int frag_ladowanie=0x7f030010;
+        public static final int frag_muzyka=0x7f030011;
+        public static final int frag_pion_poziom=0x7f030012;
+        public static final int frag_polaczenia=0x7f030013;
+        public static final int frag_smartfon=0x7f030014;
+        public static final int frag_sms=0x7f030015;
+        public static final int frag_uruchomienia_app=0x7f030016;
+        public static final int main_app_activity=0x7f030017;
     }
     public static final class menu {
-        public static final int activity_main_fragment=0x7f070000;
+        public static final int activity_main_fragment=0x7f090000;
+        public static final int menu=0x7f090001;
     }
     public static final class string {
-        public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050004;
-        public static final int menu_settings=0x7f050005;
-        public static final int title_section1=0x7f050003;
-        public static final int title_section2=0x7f050002;
-        public static final int title_section3=0x7f050001;
+        public static final int app_name=0x7f070000;
+        public static final int hello_world=0x7f070004;
+        public static final int menu_settings=0x7f070005;
+        public static final int title_section1=0x7f070003;
+        public static final int title_section2=0x7f070002;
+        public static final int title_section3=0x7f070001;
     }
     public static final class style {
         /** 
@@ -91,10 +147,13 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f080001;
+    }
+    public static final class xml {
+        public static final int choose_stat_preferences=0x7f040000;
     }
 }

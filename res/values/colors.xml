@@ -2,5 +2,6 @@
 <resources>
     <color name="niebieski">#1FA4DC</color>
     <color name="szary">#CCCCCC</color>
+    <color name="szary_jasny">#d3d3d3</color>
     <color name="bialy">#ffffff</color>
 </resources>

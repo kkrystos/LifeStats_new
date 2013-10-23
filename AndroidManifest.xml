@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="kpm.ls.ActivityLogin"
+            android:name="kpm.ls.ActivitySplashScreen"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,6 +23,12 @@
             </intent-filter>
         </activity>
         
+        <activity android:name="kpm.ls.ActivityLogin" />
+        <activity android:name="kpm.ls.ActivitySynchronizationMain" />
+        <activity android:name="kpm.ls.ActivitySocialFriendsAdd" />
+        <activity android:name="kpm.ls.ActivityChooseStats" />
+        <activity android:name="kpm.ls.MainAppActivity" />
+        <activity android:name="kpm.ls.ActivityMainApp" />
         <activity android:name="kpm.ls.MainFragmentActivity" />
     </application>
 
