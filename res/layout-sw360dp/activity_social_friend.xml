@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="40px" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="85.33dp"
+            android:layout_height="24dp"
+            android:src="@drawable/logo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="25px" >
+
+            <ImageButton
+                android:id="@+id/social_friend_facebook_addBtn"
+                android:layout_width="233.33dp"
+                android:layout_height="33.33dp"
+                android:background="@drawable/facebook_add" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="25px" >
+
+            <ImageButton
+                android:id="@+id/social_friend_twitter_addBtn"
+                android:layout_width="233.33dp"
+                android:layout_height="33.33dp"
+                android:background="@drawable/twitter_add"
+                android:paddingTop="25px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="25px" >
+
+            <ImageButton
+                android:id="@+id/social_friend_google_plus_addBtn"
+                android:layout_width="233.33dp"
+                android:layout_height="33.33dp"
+                android:background="@drawable/google_plus_add"
+                android:paddingTop="25px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="25px" >
+
+            <ImageButton
+                android:id="@+id/social_friend_pinterest_addBtn"
+                android:layout_width="233.33dp"
+                android:layout_height="33.33dp"
+                android:background="@drawable/pinterest_add" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="70px" >
+
+            <Button
+                android:id="@+id/social_friendContinueBtn"
+                android:layout_width="233.33dp"
+                android:layout_height="33.3dp"
+                android:background="@color/niebieski"
+                android:text="CONTINUE"
+                android:textColor="@color/bialy" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="20dp" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:src="@drawable/kolo_szare" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:src="@drawable/kolo_szare" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:src="@drawable/kolo_niebieskie" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:src="@drawable/kolo_szare" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
